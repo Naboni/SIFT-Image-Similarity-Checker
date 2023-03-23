@@ -2,8 +2,8 @@
 This project aims to compare images and determine their similarity using Scale-Invariant Feature Transform (SIFT) algorithm. 
 
 This project includes two files:
-main.py : The main script that performs the comparison between images.
-Utilities.py : Contains all the utility functions used in the main script.
+- main.py : The main script that performs the comparison between images.
+- Utilities.py : Contains all the utility functions used in the main script.
 
 ## Requirements
 - Python 3.x
@@ -31,4 +31,6 @@ The main.py script will compare each pair of images in the folder. Hence, it may
 The Draw_matches_RANSAC function in Utilities.py is a bonus function and is not used in the main script. It is included in case you want to experiment with the homography matrix.
 
 ## Example Output
-
+![Example Output 1](/output/Capture1.PNG)
+![Example Output 1](/output/Capture2.PNG)
+![Example Output 1](/output/Capture3.PNG)
